@@ -131,8 +131,10 @@ class Login extends Component {
 
           const {showErrorMsg, errorMsg} = this.state
 
-          const {watchLogoImage, watchLogoImageAlt} =
-            changedAttributesOnThemeChange()
+          const {
+            watchLogoImage,
+            watchLogoImageAlt,
+          } = changedAttributesOnThemeChange()
 
           return (
             <LoginPage>

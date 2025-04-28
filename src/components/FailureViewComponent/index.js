@@ -17,8 +17,10 @@ const FailureViewComponent = props => {
     <NxtWatchContext.Consumer>
       {value => {
         const {lightTheme, changedAttributesOnThemeChange} = value
-        const {failureViewImage, failureViewImageAlt} =
-          changedAttributesOnThemeChange()
+        const {
+          failureViewImage,
+          failureViewImageAlt,
+        } = changedAttributesOnThemeChange()
 
         return (
           <>

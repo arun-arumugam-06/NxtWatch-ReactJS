@@ -58,8 +58,10 @@ const Header = props => {
           changeTheme()
         }
 
-        const {watchLogoImage, watchLogoImageAlt} =
-          changedAttributesOnThemeChange()
+        const {
+          watchLogoImage,
+          watchLogoImageAlt,
+        } = changedAttributesOnThemeChange()
 
         return (
           <HeaderNav value={lightTheme}>
